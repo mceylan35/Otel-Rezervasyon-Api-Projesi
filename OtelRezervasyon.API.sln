@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelRezervasyon.API", "OtelRezervasyon.API\OtelRezervasyon.API.csproj", "{8516BC9D-5794-4BF7-8D91-728D73BEF890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtelRezervasyonu.Core", "OtelRezervasyonu.Core\OtelRezervasyonu.Core.csproj", "{415B8006-9514-4AD3-BD76-8FDA457831DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtelRezervasyonu.Entities", "OtelRezervasyonu.Entities\OtelRezervasyonu.Entities.csproj", "{E4B37065-BBB9-4834-8705-67AEC2F47621}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtelRezervasyonu.DataAccess", "OtelRezervasyonu.DataAccess\OtelRezervasyonu.DataAccess.csproj", "{2F269CC0-21A1-401A-886E-30C5B762613E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtelRezervasyonu.Business", "OtelRezervasyonu.Business\OtelRezervasyonu.Business.csproj", "{6FFF9798-67C9-4C06-8101-9F15963CAA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelRezervasyon.API", "OtelRezervasyon.API\OtelRezervasyon.API.csproj", "{6DC36FA2-2E34-41B6-8FA4-0A75129DDDCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8516BC9D-5794-4BF7-8D91-728D73BEF890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8516BC9D-5794-4BF7-8D91-728D73BEF890}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8516BC9D-5794-4BF7-8D91-728D73BEF890}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8516BC9D-5794-4BF7-8D91-728D73BEF890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415B8006-9514-4AD3-BD76-8FDA457831DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415B8006-9514-4AD3-BD76-8FDA457831DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415B8006-9514-4AD3-BD76-8FDA457831DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415B8006-9514-4AD3-BD76-8FDA457831DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B37065-BBB9-4834-8705-67AEC2F47621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B37065-BBB9-4834-8705-67AEC2F47621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B37065-BBB9-4834-8705-67AEC2F47621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B37065-BBB9-4834-8705-67AEC2F47621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F269CC0-21A1-401A-886E-30C5B762613E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F269CC0-21A1-401A-886E-30C5B762613E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F269CC0-21A1-401A-886E-30C5B762613E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F269CC0-21A1-401A-886E-30C5B762613E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFF9798-67C9-4C06-8101-9F15963CAA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFF9798-67C9-4C06-8101-9F15963CAA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFF9798-67C9-4C06-8101-9F15963CAA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFF9798-67C9-4C06-8101-9F15963CAA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC36FA2-2E34-41B6-8FA4-0A75129DDDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC36FA2-2E34-41B6-8FA4-0A75129DDDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC36FA2-2E34-41B6-8FA4-0A75129DDDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC36FA2-2E34-41B6-8FA4-0A75129DDDCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

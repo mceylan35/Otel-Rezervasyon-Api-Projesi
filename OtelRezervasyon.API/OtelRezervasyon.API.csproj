@@ -11,6 +11,17 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OtelRezervasyonu.Business\OtelRezervasyonu.Business.csproj" />
+    <ProjectReference Include="..\OtelRezervasyonu.Core\OtelRezervasyonu.Core.csproj" />
+    <ProjectReference Include="..\OtelRezervasyonu.Entities\OtelRezervasyonu.Entities.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JSONSchema="&quot;" /></VisualStudio></ProjectExtensions>
 
 </Project>
